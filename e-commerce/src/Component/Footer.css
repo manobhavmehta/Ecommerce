@@ -1,0 +1,34 @@
+.footer
+{
+    background-color: rgb(46, 45, 45);
+    border-style: solid;
+    border-color: rgb(191, 156, 80);
+    padding-bottom: 7px;
+    margin: 5px;
+}
+.text p
+{
+    margin: 0;
+    padding: 5px;
+}
+.text
+{
+    text-align: center;
+    color: rgb(191, 156, 80);;;
+    padding-top: 13px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+
+.Icons
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.Icons a
+{
+    padding: 10px;
+    font-size: larger;
+}
+

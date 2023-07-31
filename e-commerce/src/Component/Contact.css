@@ -1,0 +1,144 @@
+h1
+{
+    margin-bottom: 20px;
+}
+.outer
+{
+   margin: 10px;
+ text-align: center;
+ height: 400px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+.inner
+{
+    
+    
+    padding: 30px;
+    margin: 10px;
+    height: 350px;
+    width: 500px ;
+    display: inline-block;
+    text-align: center;
+    
+}
+.inner form{
+    text-align: left;
+}
+.form-label
+{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+}
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 88%;
+    height: 40px;
+    border-color: rgb(191, 156, 80);;;
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+.registerlink{
+    margin: 12px;
+    margin-left: 0%;
+}
+.btn
+{
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(191, 156, 80);
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    padding: 20px;
+    background-color: #1B1A17;
+    align-items: center;
+  }
+  nav span{
+    color:grey;
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(191, 156, 80);
+    text-align: center;
+    margin: 5px;    
+    padding: 0px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: wheat;
+  }
+
+  #heading{
+    text-align: center;
+    padding: 10px;
+    background-color: black ;
+    text-shadow: rgb(191, 156, 80);
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+  #tables {
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#table
+{
+    align-items: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,
+td {
+    border: 1px dashed rgb(191, 156, 80);
+    border-collapse: collapse;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    width: 20%;
+}
